@@ -14,7 +14,7 @@ const Main: React.FC = () => {
     [],
   );
 
-  return <>{sections[section] || <Home onChangeSection={setSection} />}</>;
+  return <>{sections[section] || <Home />}</>;
 };
 
 export default Main;
